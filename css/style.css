@@ -1,0 +1,16 @@
+.header-content-inner .badges .badge-link img {
+    padding: 10px;
+    
+}
+
+.navbar-brand > img {
+    height: 80px;
+    width: 80px;
+    margin-top: -30px;
+}
+
+header .header-content .header-content-inner h1 {
+    
+    font-size: 30px !important;
+    
+}  
