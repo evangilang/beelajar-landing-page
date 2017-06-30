@@ -153,9 +153,9 @@ header {
   overflow-y: hidden;
   background: url("../img/bg-pattern.png"), #7b4397;
   /* fallback for old browsers */
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #fdcc52, #dc2430);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #fdcc52, #dc2430);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
@@ -219,37 +219,42 @@ header .device-container .screen img {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 20px 0;
 }
 section h2 {
   font-size: 50px;
 }
-section.download {
-  padding: 150px 0;
+section.apa-yang-dapat-dilakukan {
+  padding: 40px 0;
   position: relative;
 }
-section.download h2 {
-  margin-top: 0;
+section.apa-yang-dapat-dilakukan h2 {
+  margin-top: 30px;
   font-size: 50px;
 }
-section.download .badges .badge-link {
+section.apa-yang-dapat-dilakukan.badges .badge-link {
   display: block;
   margin-bottom: 25px;
 }
-section.download .badges .badge-link:last-child {
+section.apa-yang-dapat-dilakukan .badges .badge-link:last-child {
   margin-bottom: 0;
 }
-section.download .badges .badge-link img {
+section.apa-yang-dapat-dilakukan .badges .badge-link img {
   height: 30px;
 }
+
+
+
+
+
 @media (min-width: 768px) {
-  section.download .badges .badge-link {
+  section.apa-yang-dapat-dilakukan .badges .badge-link {
     display: inline-block;
     margin-bottom: 0;
   }
 }
 @media (min-width: 768px) {
-  section.download h2 {
+  section.apa-yang-dapat-dilakukan h2 {
     font-size: 70px;
   }
 }
@@ -285,7 +290,7 @@ section.features .feature-item h3 {
 section.features .feature-item i {
   font-size: 80px;
   background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: linear-gradient(to left, #7b4397, #dc2430);
+  background: linear-gradient(to left, #fdcc52, #dc2430);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
